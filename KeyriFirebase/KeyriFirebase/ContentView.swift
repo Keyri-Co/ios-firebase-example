@@ -64,7 +64,26 @@ struct ContentView: View {
                         HandleQR.process(url: url, username: username, password: password)
                     }
                 } label: {
-                    Text("Submit")
+                    Text("sign in")
+                        .font(.title2)
+                        .padding()
+                        .padding(.horizontal)
+                }
+                .buttonStyle(.bordered)
+                .disabled(url == nil)
+                
+                Button {
+                    print(username)
+                    print(password)
+                    
+                    username = ""
+                    password = ""
+                    
+                    if let url = url {
+                        HandleQR.register(username: username, password: password)
+                    }
+                } label: {
+                    Text("Register")
                         .font(.title2)
                         .padding()
                         .padding(.horizontal)
@@ -87,11 +106,11 @@ class HandleQR {
         let sessionId = URLComponents(url: url, resolvingAgainstBaseURL: true)?.queryItems?.first(where: { $0.name == "sessionId" })?.value ?? ""
         Auth.auth().signIn(withEmail: username, password: password) {  authResult, error in
 
-            let appKey = "App key here" // Get this value from the Keyri Developer Portal
+            let appKey = "SQzJ5JLT4sEE1zWk1EJE1ZGNfwpvnaMP" // Get this value from the Keyri Developer Portal
             guard let payload = authResult?.user.refreshToken else { return }
 
             let keyri = Keyri() // Be sure to import the SDK at the top of the file
-            keyri.initializeQrSession(username: "TestUser", sessionId: sessionId, appKey: appKey) { res in
+            keyri.initializeQrSession(username: username, sessionId: sessionId, appKey: appKey) { res in
                 switch res {
                 case .success(var session):
                     // You can optionally create a custom screen and pass the session ID there. We recommend this approach for large enterprises
@@ -110,6 +129,10 @@ class HandleQR {
             }
 
         }
+    }
+    
+    static func register(username: String, password: String) {
+        Auth.auth().createUser(withEmail: username, password: password)
     }
 
 }
