@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2045A18A28660B7C00860FB3 /* KeyriFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A18928660B7C00860FB3 /* KeyriFirebaseApp.swift */; };
+		2045A18C28660B7C00860FB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A18B28660B7C00860FB3 /* ContentView.swift */; };
+		2045A18E28660B7C00860FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045A18D28660B7C00860FB3 /* Assets.xcassets */; };
+		2045A19128660B7C00860FB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045A19028660B7C00860FB3 /* Preview Assets.xcassets */; };
+		2045A19B28660B7D00860FB3 /* KeyriFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A19A28660B7D00860FB3 /* KeyriFirebaseTests.swift */; };
+		2045A1A528660B7D00860FB3 /* KeyriFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A1A428660B7D00860FB3 /* KeyriFirebaseUITests.swift */; };
+		2045A1A728660B7D00860FB3 /* KeyriFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A1A628660B7D00860FB3 /* KeyriFirebaseUITestsLaunchTests.swift */; };
+		2045A1B42866168D00860FB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2045A1B32866168D00860FB3 /* GoogleService-Info.plist */; };
+		681C442C613EA0AD23941CF7 /* Pods_KeyriFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321EDE0DA8B6C881EBC35900 /* Pods_KeyriFirebase.framework */; };
+		B1BA01523E0F4F1DE01BB730 /* Pods_KeyriFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B38B7960450F66C8192B4 /* Pods_KeyriFirebaseTests.framework */; };
+		CF3BC4828746B35430B0EB0C /* Pods_KeyriFirebase_KeyriFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E75B60EDBD15456478C37C /* Pods_KeyriFirebase_KeyriFirebaseUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2045A19728660B7D00860FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2045A17E28660B7C00860FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2045A18528660B7C00860FB3;
+			remoteInfo = KeyriFirebase;
+		};
+		2045A1A128660B7D00860FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2045A17E28660B7C00860FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2045A18528660B7C00860FB3;
+			remoteInfo = KeyriFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9B4362D11ABCED62820E56 /* Pods-KeyriFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriFirebase.debug.xcconfig"; path = "Target Support Files/Pods-KeyriFirebase/Pods-KeyriFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		170B38B7960450F66C8192B4 /* Pods_KeyriFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A18628660B7C00860FB3 /* KeyriFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyriFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A18928660B7C00860FB3 /* KeyriFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriFirebaseApp.swift; sourceTree = "<group>"; };
+		2045A18B28660B7C00860FB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2045A18D28660B7C00860FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2045A19028660B7C00860FB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2045A19628660B7D00860FB3 /* KeyriFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A19A28660B7D00860FB3 /* KeyriFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriFirebaseTests.swift; sourceTree = "<group>"; };
+		2045A1A028660B7D00860FB3 /* KeyriFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A1A428660B7D00860FB3 /* KeyriFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriFirebaseUITests.swift; sourceTree = "<group>"; };
+		2045A1A628660B7D00860FB3 /* KeyriFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2045A1B32866168D00860FB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		321EDE0DA8B6C881EBC35900 /* Pods_KeyriFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		515E3EF5FA7372B5ADE90D05 /* Pods-KeyriFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriFirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-KeyriFirebaseTests/Pods-KeyriFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		552BFF1FB71AABCD60344F7F /* Pods-KeyriFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriFirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriFirebaseTests/Pods-KeyriFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AD57229CBC63F59BCEF0E10 /* Pods-KeyriFirebase-KeyriFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriFirebase-KeyriFirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriFirebase-KeyriFirebaseUITests/Pods-KeyriFirebase-KeyriFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2D4B1C3769BBAD88A2754B /* Pods-KeyriFirebase-KeyriFirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriFirebase-KeyriFirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-KeyriFirebase-KeyriFirebaseUITests/Pods-KeyriFirebase-KeyriFirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9E75B60EDBD15456478C37C /* Pods_KeyriFirebase_KeyriFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriFirebase_KeyriFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F9FE85C305D03794315796 /* Pods-KeyriFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriFirebase.release.xcconfig"; path = "Target Support Files/Pods-KeyriFirebase/Pods-KeyriFirebase.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2045A18328660B7C00860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681C442C613EA0AD23941CF7 /* Pods_KeyriFirebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A19328660B7D00860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BA01523E0F4F1DE01BB730 /* Pods_KeyriFirebaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A19D28660B7D00860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3BC4828746B35430B0EB0C /* Pods_KeyriFirebase_KeyriFirebaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB2715E38072F0A6D32A279 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A9B4362D11ABCED62820E56 /* Pods-KeyriFirebase.debug.xcconfig */,
+				F9F9FE85C305D03794315796 /* Pods-KeyriFirebase.release.xcconfig */,
+				5AD57229CBC63F59BCEF0E10 /* Pods-KeyriFirebase-KeyriFirebaseUITests.debug.xcconfig */,
+				6D2D4B1C3769BBAD88A2754B /* Pods-KeyriFirebase-KeyriFirebaseUITests.release.xcconfig */,
+				552BFF1FB71AABCD60344F7F /* Pods-KeyriFirebaseTests.debug.xcconfig */,
+				515E3EF5FA7372B5ADE90D05 /* Pods-KeyriFirebaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2045A17D28660B7C00860FB3 = {
+			isa = PBXGroup;
+			children = (
+				2045A1B32866168D00860FB3 /* GoogleService-Info.plist */,
+				2045A18828660B7C00860FB3 /* KeyriFirebase */,
+				2045A19928660B7D00860FB3 /* KeyriFirebaseTests */,
+				2045A1A328660B7D00860FB3 /* KeyriFirebaseUITests */,
+				2045A18728660B7C00860FB3 /* Products */,
+				1AB2715E38072F0A6D32A279 /* Pods */,
+				AB5E8BF3C7B73F6C5B95F733 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2045A18728660B7C00860FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2045A18628660B7C00860FB3 /* KeyriFirebase.app */,
+				2045A19628660B7D00860FB3 /* KeyriFirebaseTests.xctest */,
+				2045A1A028660B7D00860FB3 /* KeyriFirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2045A18828660B7C00860FB3 /* KeyriFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				2045A18928660B7C00860FB3 /* KeyriFirebaseApp.swift */,
+				2045A18B28660B7C00860FB3 /* ContentView.swift */,
+				2045A18D28660B7C00860FB3 /* Assets.xcassets */,
+				2045A18F28660B7C00860FB3 /* Preview Content */,
+			);
+			path = KeyriFirebase;
+			sourceTree = "<group>";
+		};
+		2045A18F28660B7C00860FB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2045A19028660B7C00860FB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2045A19928660B7D00860FB3 /* KeyriFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2045A19A28660B7D00860FB3 /* KeyriFirebaseTests.swift */,
+			);
+			path = KeyriFirebaseTests;
+			sourceTree = "<group>";
+		};
+		2045A1A328660B7D00860FB3 /* KeyriFirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2045A1A428660B7D00860FB3 /* KeyriFirebaseUITests.swift */,
+				2045A1A628660B7D00860FB3 /* KeyriFirebaseUITestsLaunchTests.swift */,
+			);
+			path = KeyriFirebaseUITests;
+			sourceTree = "<group>";
+		};
+		AB5E8BF3C7B73F6C5B95F733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				321EDE0DA8B6C881EBC35900 /* Pods_KeyriFirebase.framework */,
+				D9E75B60EDBD15456478C37C /* Pods_KeyriFirebase_KeyriFirebaseUITests.framework */,
+				170B38B7960450F66C8192B4 /* Pods_KeyriFirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2045A18528660B7C00860FB3 /* KeyriFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A1AA28660B7D00860FB3 /* Build configuration list for PBXNativeTarget "KeyriFirebase" */;
+			buildPhases = (
+				57F9E4F55DB78B844703F004 /* [CP] Check Pods Manifest.lock */,
+				2045A18228660B7C00860FB3 /* Sources */,
+				2045A18328660B7C00860FB3 /* Frameworks */,
+				2045A18428660B7C00860FB3 /* Resources */,
+				C624E3D574A5DCE858E5F4D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyriFirebase;
+			productName = KeyriFirebase;
+			productReference = 2045A18628660B7C00860FB3 /* KeyriFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2045A19528660B7D00860FB3 /* KeyriFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A1AD28660B7D00860FB3 /* Build configuration list for PBXNativeTarget "KeyriFirebaseTests" */;
+			buildPhases = (
+				14FA518000476E605AF8B870 /* [CP] Check Pods Manifest.lock */,
+				2045A19228660B7D00860FB3 /* Sources */,
+				2045A19328660B7D00860FB3 /* Frameworks */,
+				2045A19428660B7D00860FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2045A19828660B7D00860FB3 /* PBXTargetDependency */,
+			);
+			name = KeyriFirebaseTests;
+			productName = KeyriFirebaseTests;
+			productReference = 2045A19628660B7D00860FB3 /* KeyriFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2045A19F28660B7D00860FB3 /* KeyriFirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A1B028660B7D00860FB3 /* Build configuration list for PBXNativeTarget "KeyriFirebaseUITests" */;
+			buildPhases = (
+				CC700D628576D9608F70BBFE /* [CP] Check Pods Manifest.lock */,
+				2045A19C28660B7D00860FB3 /* Sources */,
+				2045A19D28660B7D00860FB3 /* Frameworks */,
+				2045A19E28660B7D00860FB3 /* Resources */,
+				060FF76ECFD38A1E6491CEF2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2045A1A228660B7D00860FB3 /* PBXTargetDependency */,
+			);
+			name = KeyriFirebaseUITests;
+			productName = KeyriFirebaseUITests;
+			productReference = 2045A1A028660B7D00860FB3 /* KeyriFirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2045A17E28660B7C00860FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2045A18528660B7C00860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					2045A19528660B7D00860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2045A18528660B7C00860FB3;
+					};
+					2045A19F28660B7D00860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2045A18528660B7C00860FB3;
+					};
+				};
+			};
+			buildConfigurationList = 2045A18128660B7C00860FB3 /* Build configuration list for PBXProject "KeyriFirebase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2045A17D28660B7C00860FB3;
+			productRefGroup = 2045A18728660B7C00860FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2045A18528660B7C00860FB3 /* KeyriFirebase */,
+				2045A19528660B7D00860FB3 /* KeyriFirebaseTests */,
+				2045A19F28660B7D00860FB3 /* KeyriFirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2045A18428660B7C00860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A19128660B7C00860FB3 /* Preview Assets.xcassets in Resources */,
+				2045A18E28660B7C00860FB3 /* Assets.xcassets in Resources */,
+				2045A1B42866168D00860FB3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A19428660B7D00860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A19E28660B7D00860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060FF76ECFD38A1E6491CEF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriFirebase-KeyriFirebaseUITests/Pods-KeyriFirebase-KeyriFirebaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriFirebase-KeyriFirebaseUITests/Pods-KeyriFirebase-KeyriFirebaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyriFirebase-KeyriFirebaseUITests/Pods-KeyriFirebase-KeyriFirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14FA518000476E605AF8B870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriFirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F9E4F55DB78B844703F004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C624E3D574A5DCE858E5F4D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriFirebase/Pods-KeyriFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriFirebase/Pods-KeyriFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyriFirebase/Pods-KeyriFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC700D628576D9608F70BBFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriFirebase-KeyriFirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2045A18228660B7C00860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A18C28660B7C00860FB3 /* ContentView.swift in Sources */,
+				2045A18A28660B7C00860FB3 /* KeyriFirebaseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A19228660B7D00860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A19B28660B7D00860FB3 /* KeyriFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A19C28660B7D00860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A1A728660B7D00860FB3 /* KeyriFirebaseUITestsLaunchTests.swift in Sources */,
+				2045A1A528660B7D00860FB3 /* KeyriFirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2045A19828660B7D00860FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2045A18528660B7C00860FB3 /* KeyriFirebase */;
+			targetProxy = 2045A19728660B7D00860FB3 /* PBXContainerItemProxy */;
+		};
+		2045A1A228660B7D00860FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2045A18528660B7C00860FB3 /* KeyriFirebase */;
+			targetProxy = 2045A1A128660B7D00860FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2045A1A828660B7D00860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2045A1A928660B7D00860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2045A1AB28660B7D00860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9B4362D11ABCED62820E56 /* Pods-KeyriFirebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyriFirebase/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2045A1AC28660B7D00860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F9FE85C305D03794315796 /* Pods-KeyriFirebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyriFirebase/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2045A1AE28660B7D00860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552BFF1FB71AABCD60344F7F /* Pods-KeyriFirebaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyriFirebase.app/KeyriFirebase";
+			};
+			name = Debug;
+		};
+		2045A1AF28660B7D00860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515E3EF5FA7372B5ADE90D05 /* Pods-KeyriFirebaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyriFirebase.app/KeyriFirebase";
+			};
+			name = Release;
+		};
+		2045A1B128660B7D00860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD57229CBC63F59BCEF0E10 /* Pods-KeyriFirebase-KeyriFirebaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyriFirebase;
+			};
+			name = Debug;
+		};
+		2045A1B228660B7D00860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2D4B1C3769BBAD88A2754B /* Pods-KeyriFirebase-KeyriFirebaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyriFirebase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2045A18128660B7C00860FB3 /* Build configuration list for PBXProject "KeyriFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A1A828660B7D00860FB3 /* Debug */,
+				2045A1A928660B7D00860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A1AA28660B7D00860FB3 /* Build configuration list for PBXNativeTarget "KeyriFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A1AB28660B7D00860FB3 /* Debug */,
+				2045A1AC28660B7D00860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A1AD28660B7D00860FB3 /* Build configuration list for PBXNativeTarget "KeyriFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A1AE28660B7D00860FB3 /* Debug */,
+				2045A1AF28660B7D00860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A1B028660B7D00860FB3 /* Build configuration list for PBXNativeTarget "KeyriFirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A1B128660B7D00860FB3 /* Debug */,
+				2045A1B228660B7D00860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2045A17E28660B7C00860FB3 /* Project object */;
+}
