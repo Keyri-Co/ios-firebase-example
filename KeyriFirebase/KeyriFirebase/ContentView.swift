@@ -132,7 +132,11 @@ class HandleQR {
     }
     
     static func register(username: String, password: String) {
-        Auth.auth().createUser(withEmail: username, password: password)
+        Auth.auth().createUser(withEmail: username, password: password) { result, error in
+            print(result)
+            print(result?.user)
+            print(error)
+        }
         
     }
 
