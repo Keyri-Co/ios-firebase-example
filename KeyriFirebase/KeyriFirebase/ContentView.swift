@@ -61,7 +61,7 @@ struct ContentView: View {
                     password = ""
                     
                     if let url = url {
-                        HandleQR.process(url: url)
+                        HandleQR.process(url: url, username: username, password: password)
                     }
                 } label: {
                     Text("Submit")
@@ -83,9 +83,9 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 class HandleQR {
-    static func process(url: URL) {
+    static func process(url: URL, username: String, password: String) {
         let sessionId = URLComponents(url: url, resolvingAgainstBaseURL: true)?.queryItems?.first(where: { $0.name == "sessionId" })?.value ?? ""
-        Auth.auth().signIn(withEmail: "aditya@keyri.co", password: "password") {  authResult, error in
+        Auth.auth().signIn(withEmail: username, password: password) {  authResult, error in
 
             let appKey = "App key here" // Get this value from the Keyri Developer Portal
             guard let payload = authResult?.user.refreshToken else { return }
