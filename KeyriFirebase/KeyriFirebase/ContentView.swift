@@ -13,8 +13,8 @@ struct ContentView: View {
     
     @State var showView = false
     @State var url: URL? = nil
-    @State private var username: String = ""
-    @State private var password: String = ""
+    @State private var username: String = "aditya@keyri.co"
+    @State private var password: String = "password"
 
     
     var body: some View {
@@ -133,6 +133,7 @@ class HandleQR {
     
     static func register(username: String, password: String) {
         Auth.auth().createUser(withEmail: username, password: password)
+        
     }
 
 }
