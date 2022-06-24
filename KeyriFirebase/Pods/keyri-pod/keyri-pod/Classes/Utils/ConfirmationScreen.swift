@@ -11,8 +11,6 @@ public struct ConfirmationScreen: View {
     @Environment(\.colorScheme) var colorScheme
     @State var session: Session
     
-    public init() {}
-    
     public var body: some View {
         Text("Are you trying to log in?").foregroundColor(Color(hex: "595959")).font(.title3).fontWeight(.semibold).padding()
         if session.riskAnalytics?.riskStatus == "warn" {
