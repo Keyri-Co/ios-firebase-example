@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var showView = false
     @State var url: URL? = nil
     @State private var username: String = "aditya@keyri.co"
-    @State private var password: String = "password"
+    @State private var password: String = "LED123LED"
 
     
     var body: some View {
@@ -76,8 +76,8 @@ struct ContentView: View {
                     print(username)
                     print(password)
                     
-                    username = ""
-                    password = ""
+//                    username = ""
+//                    password = ""
                     
                     if let url = url {
                         HandleQR.register(username: username, password: password)
@@ -104,9 +104,14 @@ struct ContentView_Previews: PreviewProvider {
 class HandleQR {
     static func process(url: URL, username: String, password: String) {
         let sessionId = URLComponents(url: url, resolvingAgainstBaseURL: true)?.queryItems?.first(where: { $0.name == "sessionId" })?.value ?? ""
-        Auth.auth().signIn(withEmail: username, password: password) {  authResult, error in
+        print(username)
+        print(password)
+        Auth.auth().signIn(withEmail: "aditya@keyri.co", password: "LED123LED") {  authResult, error in
 
             let appKey = "SQzJ5JLT4sEE1zWk1EJE1ZGNfwpvnaMP" // Get this value from the Keyri Developer Portal
+            print("\n In callback \n")
+            print(authResult)
+            print(error)
             guard let payload = authResult?.user.refreshToken else { return }
 
             let keyri = Keyri() // Be sure to import the SDK at the top of the file
@@ -129,6 +134,7 @@ class HandleQR {
             }
 
         }
+        
     }
     
     static func register(username: String, password: String) {

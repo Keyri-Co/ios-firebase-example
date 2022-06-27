@@ -54,7 +54,7 @@ public struct Session: Codable {
         let json: [String: Any] = [
             "__salt": __salt,
             "__hash": __hash,
-            "error": success.description,
+            "errors": success.description,
             "errorMsg": "",
             "apiData": [
                 "publicUserId": userID,
